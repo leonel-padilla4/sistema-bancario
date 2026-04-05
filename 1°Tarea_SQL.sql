@@ -208,7 +208,7 @@ SELECT nombre, apellido,
      WHERE cuentas.id_cliente = clientes.id) AS num_cuentas
 FROM clientes
 ORDER BY num_cuentas DESC
-LIMIT 2;
+LIMIT 1;
 
 -- PREGUNTA 15: Total de préstamos por cliente
 SELECT nombre, apellido,
